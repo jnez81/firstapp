@@ -50,4 +50,4 @@ def timeConversion(s):
     else:
         return s.rstrip("AMPM")
 
-print(timeConversion('12:23:32PM'))
+print(timeConversion("12:07:07AM"))

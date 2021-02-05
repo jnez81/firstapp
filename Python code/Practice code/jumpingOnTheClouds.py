@@ -24,3 +24,28 @@ Returns
 
 int: the minimum number of jumps required
 """
+
+def jumpingOnClouds(c):
+    # Minimum number of jumps required
+    jumps = 0
+
+    i = 0
+    while (c[i] == 0):
+        if (int(c[i+1]) == int(c[i]+1) or int(c[i]+2)): 
+            jumps += 1
+            i += 1
+            continue
+
+        elif (int(c[i+2]) == int(c[i]+1) or int(c[i]+2)):
+            jumps += 1
+            i += 1
+            continue
+
+        else: 
+            continue
+
+
+print(jumpingOnClouds([0,0,1,0,0,1,0]))
+
+
+

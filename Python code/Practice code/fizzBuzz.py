@@ -27,5 +27,5 @@ def fizzBuzz(n):
             print(i)
 
 
-print(fizzBuzz(15))
+print(fizzBuzz(1000))
 

@@ -1,5 +1,5 @@
 /* Simple Calculator with functions to perform addition, subtraction,
-division and multiplication. This simple program does not handle floats,
+division and multiplication. This simple program does not handle floats
 */
 
 #include <iostream>
